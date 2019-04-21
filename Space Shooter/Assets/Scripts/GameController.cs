@@ -17,6 +17,13 @@ public class GameController : MonoBehaviour
     public Text RestartText;
     public Text GameOverText;
     public Text WinText;
+
+    public AudioClip sound1;
+    public AudioSource sound;
+    public AudioClip sound2;
+    public AudioSource sounds;
+    public AudioClip sound3;
+    public AudioSource sounds3;
     
     private bool gameOver;
     private bool restart;
@@ -32,6 +39,8 @@ public class GameController : MonoBehaviour
         score = 0;
         UpdateScore();
         StartCoroutine (SpawnWaves());
+
+        
     }
     IEnumerator SpawnWaves()
     {
@@ -70,7 +79,12 @@ public class GameController : MonoBehaviour
             WinText.text = "Game Created by: Bryce Lush";
             gameOver = true;
             restart = true;
-              
+
+            if (score >= 100)
+            {
+                sounds3.Stop();
+                sound.Play();
+            }
         }
     }
 
@@ -78,6 +92,12 @@ public class GameController : MonoBehaviour
     {
         GameOverText.text = "Game Created by: Bryce Lush";
         gameOver = true;
+
+        if(gameOver == true)
+        {
+            sounds3.Stop();
+            sounds.Play();
+        }
     }
 
     void Update()

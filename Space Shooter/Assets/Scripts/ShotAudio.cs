@@ -15,7 +15,11 @@ public class ShotAudio : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1") && !soundSource.isPlaying)
+        {
+            soundSource.Play();
+        }
+        else if(Input.GetButtonDown("Fire1"))
         {
             soundSource.Play();
         }

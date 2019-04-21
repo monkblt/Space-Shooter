@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 581, y: 398}
-  m_MaxSize: {x: 16006, y: 14048}
+  m_MinSize: {x: 587, y: 398}
+  m_MaxSize: {x: 16012, y: 14048}
   vertical: 0
-  controlID: 10934
+  controlID: 6293
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1259
     height: 731
-  m_MinSize: {x: 304, y: 398}
-  m_MaxSize: {x: 12004, y: 14048}
+  m_MinSize: {x: 310, y: 398}
+  m_MaxSize: {x: 12010, y: 14048}
   vertical: 1
-  controlID: 10864
+  controlID: 6294
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1259
     height: 457
-  m_MinSize: {x: 304, y: 124}
-  m_MaxSize: {x: 12004, y: 4024}
+  m_MinSize: {x: 310, y: 124}
+  m_MaxSize: {x: 12010, y: 4024}
   vertical: 0
-  controlID: 10865
+  controlID: 6295
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -443,9 +443,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.72490406, y: -0.0010334714, z: 0.0010875486, w: 0.68884826}
   m_Size:
-    m_Target: 22
+    m_Target: 27.904617
     speed: 2
-    m_Value: 22
+    m_Value: 27.904617
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -594,7 +594,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2631ffff4831ffffa032ffffb697ffff8c99ffff84efffffd4fbffff
+      m_ExpandedIDs: 5e6dffff806dffffdc6effffc2fbffff460d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -656,20 +656,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 82
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 82
   m_LastProjectPath: D:\Unity Projects\Space Shooter\Space-Shooter\Space Shooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 67}
-    m_SelectedIDs: 2c0a0000
-    m_LastClickedID: 2604
-    m_ExpandedIDs: 00000000c60900008a0a00000c0b000000ca9a3b
+    m_SelectedIDs: b2090000
+    m_LastClickedID: 2482
+    m_ExpandedIDs: 00000000b2090000820a0000180b0000540c0000000d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c60900008a0a00000c0b000000ca9a3b
+    m_ExpandedIDs: 00000000b2090000820a0000180b0000540c0000000d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +749,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 26}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 82
   m_DirectoriesAreaWidth: 216
 --- !u!114 &19
