@@ -24,6 +24,8 @@ public class GameController : MonoBehaviour
     public AudioSource sounds;
     public AudioClip sound3;
     public AudioSource sounds3;
+
+    public bool winCondition;
     
     private bool gameOver;
     private bool restart;
@@ -33,6 +35,7 @@ public class GameController : MonoBehaviour
     {
         gameOver = false;
         restart = false;
+        winCondition = false;
         RestartText.text = "";
         GameOverText.text = "";
         WinText.text = "";
@@ -79,10 +82,12 @@ public class GameController : MonoBehaviour
             WinText.text = "Game Created by: Bryce Lush";
             gameOver = true;
             restart = true;
+            winCondition = true;
 
             if (score >= 100)
             {
                 sounds3.Stop();
+                sounds.Stop();
                 sound.Play();
             }
         }

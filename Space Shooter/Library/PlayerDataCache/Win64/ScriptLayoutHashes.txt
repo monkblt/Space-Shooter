@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/Unity Projects/Space Shooter/Space-Shooter/Space Shooter/Builds Final Project/Space Shooer.exe
+D:/Unity Projects/Space Shooter/Space-Shooter/Space Shooter/Builds Final Project 2.0/Space Shooer.exe
 SceneListBegin?
 Assets/Scenes/Space Shooter.unity
 SceneListEnd?
@@ -147,7 +147,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-8c5fbf20352ee1d2994afee841914936 Assembly-CSharp.dll:.GameController
+9acf2db1de6f981c1b9d8c6849b5f059 Assembly-CSharp.dll:.GameController
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -183,3 +183,4 @@ ea3d79114ba96b45c81057fbd60516da Assembly-CSharp.dll:.ShotAudio
 be2d1663d6bc8ce39ce9c8dea6a963c7 Assembly-CSharp.dll:.Done_BGScroller
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 96579b1d7c32aebb6c65db101ee7a10b Assembly-CSharp.dll:.Done_GameController
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Stars
